@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=960 height=720 tabindex="-1" style="width: 960px; height: 720px; background: #231F20"></canvas>
-    <script src="Build/teste4.loader.js"></script>
+    <script src="Build/teste5.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -26,9 +26,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/teste4.data.br",
-        frameworkUrl: "Build/teste4.framework.js.br",
-        codeUrl: "Build/teste4.wasm.br",
+        dataUrl: "Build/teste5.data.unityweb",
+        frameworkUrl: "Build/teste5.framework.js.unityweb",
+        codeUrl: "Build/teste5.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "quimica-witch-game",
